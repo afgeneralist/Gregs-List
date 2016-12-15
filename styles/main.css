@@ -1,0 +1,76 @@
+* {
+  width: 100%;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+ }
+
+ body {
+ 	margin: 0 0;
+ }
+
+nav {
+	background-color: #EEEEEE;
+	display: flex; 
+	align-items: flex-end;
+	/*position: fixed; Sara, lets talk about how the positioning totally changes when this goes to fixed*/
+}
+
+h1 {
+	margin-left: 10px;
+}
+
+.navText {
+	width: 85%;
+	text-align: right;
+	margin: 20px 20px;
+}
+
+.navText a {
+	margin: 10px;
+}
+
+.searchContainer, .toggle, .listing {
+	margin-left: 120px;
+}
+
+.searchContainer {
+	margin-top: 50px;
+
+}
+
+.searchbar {
+	width: 500px;
+	height: 40px;
+	border-radius: 2px;
+	border-color: #EEEEEE;
+	font-size: 20px;
+}
+
+.mag-glass {
+	width: 40px;
+	height: 40px;
+	border: 1px solid black;
+	position: relative;
+	top: 14px;
+	border-radius: 10%;
+	border-color: #EEEEEE;
+}
+
+.toggle * {
+	border: 1px solid #EEEEEE;
+	border-radius: 2px;
+	position: relative;
+	top: 50px;
+	padding: 15px;
+}
+
+.listing {
+	margin-top: 150px;
+	color: gray;
+}
+
+
+a:link {
+	color: blue;
+	text-decoration: none;
+}
